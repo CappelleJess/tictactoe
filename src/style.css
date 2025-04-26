@@ -1,0 +1,15 @@
+.square {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 1px solid silver;
+    float: left;
+    height: 50px;
+    width: 50px;
+    font-size: 2.8em;
+}
+
+.board-row::-ms-ticks-after {
+    clear: both;
+    content: '';
+    display: table;
+}
