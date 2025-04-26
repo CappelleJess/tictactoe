@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Square from './Square';
+import Square from "./Square";
 
 function Board() {
     const [xIsNext, setXIsNext] = useState(true);

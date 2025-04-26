@@ -8,7 +8,7 @@
     font-size: 2.8em;
 }
 
-.board-row::-ms-ticks-after {
+.board-row::after {
     clear: both;
     content: '';
     display: table;
